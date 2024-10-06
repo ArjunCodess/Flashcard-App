@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Satoshi';
+  src: local('Satoshi'),
+       url('../public/Fonts/Satoshi-Medium.woff2') format('woff2'),
+       url('../public/Fonts/Satoshi-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @layer base {
     :root {
         --background: 0 0% 100%;
@@ -47,6 +56,10 @@
         --input: 217.2 32.6% 17.5%;
         --ring: 224.3 76.3% 48%;
     }
+}
+
+body {
+    font-family: 'Satoshi', sans-serif;
 }
 
 @layer utilities {

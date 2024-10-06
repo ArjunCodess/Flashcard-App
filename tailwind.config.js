@@ -44,6 +44,9 @@ export default {
       perspective: {
         '1000': '1000px',
       },
+      fontFamily: {
+        'satoshi': ['Satoshi', 'sans-serif'],
+      },
     },
   },
   plugins: [
